@@ -30,7 +30,7 @@ return [
 	'blurb4Title'	 => '性能超凡',
 	'blurb4Desc'	 => 'CodeIgniter 一致胜过 大多数竞争产品',
 	'blurb5Title'	 => '安全性强',
-	'blurb5Desc'	 => '我们非常重视安全问题, 为此已安装了针对跨站请求伪造 (CSRF) 和跨网站指令码 (XSS) 攻击的内置保护系统。 Version 4 增添了 上下文相关换码 和 内容安全策略（CSP）。',
+	'blurb5Desc'	 => '我们非常重视安全问题, 为此已安装了针对跨站请求伪造 (CSRF) 和跨网站指令码 (XSS) 攻击的内置保护系统。 Version 4 增添了 过滤特殊字符 和 内容安全策略（CSP）。',
 	'blurb6Title'	 => '几乎无需再行设置',
 	'blurb6Desc'     => 'CodeIgniter 大部分设置已照惯例完成, 例如 将 模型放入一个 "models" 文件夹. 不过在"config" 文件夹里的脚本文件中， 依然可以提供数些给用户任用的设置选项。',
 ];

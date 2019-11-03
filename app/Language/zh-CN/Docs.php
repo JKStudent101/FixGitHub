@@ -7,7 +7,7 @@
 
 
 $ci4DocsText = <<<'EOS'
-CodeIgniter 4 是即将发布的框架版本, 授权于[MIT License]。
+CodeIgniter 4 是即将发布的框架版本, 授权于[MIT License]
 (https://github.com/codeigniter4/CodeIgniter4/blob/develop/license.txt).
 
 <ul class="nav nav-pills justify-content-center">
@@ -33,7 +33,7 @@ CodeIgniter 4 是即将发布的框架版本, 授权于[MIT License]。
 EOS;
 
 $ci3DocsText = <<<'EOS'
-CodeIgniter 3 是框架的当前版本, 授权于[MIT License]。
+CodeIgniter 3 是框架的当前版本, 授权于[MIT License]
 (http://cisite.local/user_guide/license.html).
 
 <ul class="nav nav-pills justify-content-center">
