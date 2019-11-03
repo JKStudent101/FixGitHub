@@ -4,8 +4,6 @@
  * The text blocks use markdown format.
  */
 
-
-
 return [
 	'pageTitle'		 => 'CodeIgniter 网络框架',
 	'jumboTitle'	 => 'CodeIgniter 太棒了',
