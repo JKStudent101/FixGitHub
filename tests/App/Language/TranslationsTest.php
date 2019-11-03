@@ -122,7 +122,7 @@ class TranslationsTest extends TestCase
 	 */
 	public function expectedSets()
 	{
-		$dir = getcwd() . 'app/Language/en';
+		$dir = getcwd() . '/app/Language/en';
 		$dh = opendir($dir);
 		$sets = [];
 		while (($file = readdir($dh)) !== false)
@@ -163,7 +163,7 @@ class TranslationsTest extends TestCase
 	public function loadKeys($which, $locale = null)
 	{
 		$folder = $locale ? getcwd() . '/Language/' . $locale . '/' :
-				getcwd() . 'app/Language/en';
+				getcwd() . '/app/Language/en';
 		$file = $folder . $which;
 		$keys = require $file;
 		return $keys;
