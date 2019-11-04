@@ -8,9 +8,22 @@ sudo: required
 dist: trusty
 group: edge
 
+matrix:
+  allow_failures:
+    - php: 5.5
+
+install:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev --no-interaction
+  
 script:
   - php vendor/bin/phpunit -v
+  #Coveralls code
+  - mkdir -p build/logs
+  - php vendor/bin/phpunit -c phpunit.xml.dist
 
 before_script:
   - composer install --prefer-source
 
+after_success:
+  - travis_retry php vendor/bin/php-coveralls
